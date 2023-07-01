@@ -1,3 +1,3 @@
 # Repositório HTML
- comandose e pág em HTML
+ comandos e páginas em HTML
 
