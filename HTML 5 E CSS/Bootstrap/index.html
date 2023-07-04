@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Site com bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+            <h1>Nab</h1>
+          
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">Navbar</a>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home 
+                        <span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="pag1.html">Pag1</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Desativado</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
+                  </form>
+                </div>
+              </nav>
+    </header>
+    <main>
+      <br>
+        <section>
+            <p>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block" src="img/Art1.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block" src="img/Art2.jpg" alt="Segundo Slide">
+                 </div>
+                <div class="carousel-item">
+                <img class="d-block" src="img/Art3.jpg" alt="Terceiro Slide">
+                </div>
+              </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button"    data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+              </p>
+        </section>
+        <section>
+            <p id="tb">
+                 <!--inicio da tabela -->
+                <div class="container">
+                <div class="row justify-content-center"> 
+                  <div class="col">
+                    <!--inicio do card1-->
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Fig01.jpg" alt="card 01">
+                        <div class="card-body">
+                          <h5 class="card-title">Título do card</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Link do card</a>
+                          <a href="#" class="card-link">Outro link</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <!--inicio do card2-->
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Fig02.jpg" alt="card 02">
+                        <div class="card-body">
+                          <h5 class="card-title">Título do card</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Link do card</a>
+                          <a href="#" class="card-link">Outro link</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <!--inicio do card3-->
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Fig03.jpg" alt="card 03">
+                        <div class="card-body">
+                          <h5 class="card-title">Título do card</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Link do card</a>
+                          <a href="#" class="card-link">Outro link</a>
+                        </div>
+                        </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+            </p>
+        </section>
+    
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

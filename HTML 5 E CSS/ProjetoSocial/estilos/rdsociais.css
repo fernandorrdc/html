@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+
+   margin: 0px;
+   padding: 0px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 0px;
+    height: 0px;
+
+}
+
+img {
+
+    width: 100vw;
+
+}
+
+a {
+
+    display:block;
+    background-color: rgba(165, 42, 42, 0.56);
+    color: rgba(210, 218, 217, 0.818);
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: wavy;
+}
+
+a:hover {
+
+   background-color: rgba(165, 42, 97, 0.541);
+
+}
